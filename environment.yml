@@ -1,0 +1,46 @@
+name: tics
+channels:
+  - defaults
+dependencies:
+  - astropy=5.1=py38h67323c0_0
+  - blas=1.0=mkl
+  - bottleneck=1.3.7=py38h7b7cdfe_0
+  - ca-certificates=2025.2.25=hecd8cb5_0
+  - intel-openmp=2021.4.0=hecd8cb5_3538
+  - libcxx=17.0.6=hf547dac_4
+  - libffi=3.4.4=hecd8cb5_1
+  - mkl=2021.4.0=hecd8cb5_637
+  - mkl-service=2.4.0=py38h9ed2024_0
+  - mkl_fft=1.3.1=py38h4ab4a9b_0
+  - mkl_random=1.2.2=py38hb2f4e1b_0
+  - ncurses=6.4=hcec6c5f_0
+  - numexpr=2.8.4=py38he696674_0
+  - numpy=1.24.3=py38he696674_0
+  - numpy-base=1.24.3=py38h9cd3388_0
+  - openssl=3.0.16=h184c1cd_0
+  - packaging=24.1=py38hecd8cb5_0
+  - pandas=2.0.3=py38h3ea8b11_0
+  - pip=24.2=py38hecd8cb5_0
+  - pyerfa=2.0.0=py38h9ed2024_0
+  - python=3.8.20=hce00570_0
+  - python-dateutil=2.9.0post0=py38hecd8cb5_2
+  - python-tzdata=2025.2=pyhd3eb1b0_0
+  - pytz=2024.1=py38hecd8cb5_0
+  - pyyaml=6.0.2=py38h46256e1_0
+  - readline=8.2=hca72f7f_0
+  - setuptools=75.1.0=py38hecd8cb5_0
+  - six=1.16.0=pyhd3eb1b0_1
+  - sqlite=3.45.3=h6c40b1e_0
+  - tk=8.6.14=h0a12a5f_1
+  - wheel=0.44.0=py38hecd8cb5_0
+  - xz=5.6.4=h46256e1_1
+  - yaml=0.2.5=haf1e3a3_0
+  - zlib=1.2.13=h4b97444_1
+  - pip:
+      - importlib-metadata==8.5.0
+      - llvmlite==0.41.1
+      - mpi4py==4.1.0
+      - numba==0.58.1
+      - pyomp==0.2.0
+      - zipp==3.20.2
+prefix: /Users/Lenin/miniconda3/envs/tics
